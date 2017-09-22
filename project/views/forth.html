@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Single page web app using Angularjs</title>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular-route.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css">
+
+</head>
+    
+    
+<body>
+    <div class="container">
+        <div>
+             <nav class="navbar navbar-inverse" role="navigation" style="padding-left:130px;">
+                <ul class="nav navbar-nav">
+                  <li><a href="/">Home<span class="sr-only">(current)</span></a></li>
+                  <li><a href="/about">About us</a></li>
+                  <li><a href="/contact">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+                <!-------------------FORM----------------------->
+    <form class="form-horizontal" role="form"
+ action="" method="POST"> 
+        <fieldset>
+        <!-- Form Name -->
+            <legend style="text-align:center;">Forth Page</legend>
+            
+            <!-- Text input-->
+            <div class="form-group row">
+                <label class="col-md-4 control-label" for="textinput"></label>  
+                <div class="col-md-4">
+                    
+                </div>
+                <div class="col-md-4"> </div>
+            </div>
+            <!-- Question 12-->
+        <fieldset id="group12">
+            <div class="row form-group">
+                 <div class="row">
+                     <div class="col-md-3"></div>
+                     <label class="control-label" for="radios">12. How well organized do you think the structure of the restaurants is? </label>
+        
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-4">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group12" id="gridRadios1" value="option1"> The structure is horrible</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group12" id="gridRadios1" value="option2"> Below average</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group12" id="gridRadios1" value="option3"> Average</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group12" id="gridRadios1" value="option4"> Above average</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group12" id="gridRadios1" value="option5"> Amazing!</label>
+                    </div>
+                         
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </fieldset>
+            
+            
+
+            
+              <!-- Question 13-->
+        <fieldset id="group13">
+            <div class="row form-group">
+                 <div class="row">
+                     <div class="col-md-3"></div>
+                     <label class="control-label" for="radios">13. What could be improved in the student restaurants?</label><br>   
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-5">
+                
+                    <div class="form-group form-check">
+                        <div class="col-md-8">                     
+                            <textarea class="form-control" id="textarea" name="textarea"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </fieldset>
+            
+            
+            <!-- Button -->
+            
+            
+            </fieldset>
+            <div class="row form-group">
+                <label class="col-md-4 control-label"></label>
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <button type="submit" class="btn btn-default"><a href="/thankyou">Submit</a></button>
+                </div>
+            </div>
+    </form>
+    </div>
+    </body>
+</html>

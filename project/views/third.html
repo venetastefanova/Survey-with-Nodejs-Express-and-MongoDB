@@ -1,0 +1,213 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Single page web app using Angularjs</title>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular-route.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css">
+
+</head>
+    
+    
+<body>
+    <div class="container">
+        <div>
+             <nav class="navbar navbar-inverse" role="navigation" style="padding-left:130px;">
+                <ul class="nav navbar-nav">
+                  <li><a href="/">Home<span class="sr-only">(current)</span></a></li>
+                  <li><a href="/about">About us</a></li>
+                  <li><a href="/contact">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+                <!-------------------FORM----------------------->
+<form class="form-horizontal" role="form"
+ action="" method="POST">        <fieldset>
+        <!-- Form Name -->
+            <legend style="text-align:center;">Third Page</legend>
+            <span class="help-block"> </span>  
+            <!-- Text input-->
+            <div class="form-group row">
+                <label class="col-md-4 control-label" for="textinput"></label>  
+                <div class="col-md-4">
+                    
+                </div>
+                <div class="col-md-4"> </div>
+            </div>
+            
+            <!-- Question 7-->
+        <fieldset id="group7">
+            <div class="row form-group">
+                 <div class="row">
+                     <div class="col-md-3"></div>
+                     <label class="control-label" for="radios">7. Do you have access to the student discount in the restaurants?</label><br>   
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-4">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group7" id="gridRadios1" value="option1"> Yes.</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group7" id="gridRadios1" value="option2"> No.</label>
+                    </div>
+                         
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </fieldset>
+            
+              <!-- Question 8-->
+        <fieldset id="group8">
+            <div class="row form-group">
+                 <div class="row">
+                     <div class="col-md-3"></div>
+                     <label class="control-label" for="radios">8. How satisfied are you with the prices of the student restaurants?</label><br>   
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-4">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group8" id="gridRadios1" value="option1"> Way too expensive</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group8" id="gridRadios1" value="option2"> A bit expensive</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group8" id="gridRadios1" value="option3"> Reasonable price</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group8" id="gridRadios1" value="option4"> Too cheap</label>
+                    </div>
+                         
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </fieldset>
+            
+            <!-- Question 9-->
+        <fieldset id="group9">
+            <div class="row form-group">
+                 <div class="row">
+                     <div class="col-md-3"></div>
+                     <label class="control-label" for="radios">9. How well accessible are the student restaurants to you during your lunch break?</label><br>   
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-5">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group9" id="gridRadios1" value="option1"> I dont have time for lunch breaks </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group9" id="gridRadios1" value="option2"> I only have to go to the closest one</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group9" id="gridRadios1" value="option3"> I occasionally have time to go to various restaurants</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group9" id="gridRadios1" value="option4"> I always have enough time to go wherever I want</label>
+                    </div>
+                         
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </fieldset>
+           
+             <!-- Question 10-->
+        <fieldset id="group10">
+            <div class="row form-group">
+                 <div class="row">
+                     <div class="col-md-3"></div>
+                     <label class="control-label" for="radios">10. What time do you usually visit the student restaurants?</label><br>   
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-5">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group10" id="gridRadios1" value="option1"> Before 10:30 </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group10" id="gridRadios1" value="option2"> Between 10:30 - 11:30</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group10" id="gridRadios1" value="option3"> Between 11:30 - 12:30</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group10" id="gridRadios1" value="option4"> Between 12:30 - 13:30</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group10" id="gridRadios1" value="option5"> After 13:30 </label>
+                    </div>
+                         
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </fieldset>
+            
+              <!-- Question 11-->
+        <fieldset id="group11">
+            <div class="row form-group">
+                 <div class="row">
+                     <div class="col-md-3"></div>
+                     <label class="control-label" for="radios">11. How long in average do you have to queue in the restaurants?</label><br>   
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-5">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group11" id="gridRadios1" value="option1"> Too long (>15min) </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group11" id="gridRadios1" value="option2"> Quite long (10-15min)</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group11" id="gridRadios1" value="option3"> Average (5-10min)</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group11" id="gridRadios1" value="option4"> Barely at all (0-5min)</label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                             <input class="form-check-input" type="radio" name="group11" id="gridRadios1" value="option5"> There is never any queue </label>
+                    </div>
+                         
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </fieldset>
+            
+            
+            <!-- Button -->
+            
+            
+            </fieldset>
+            <div class="row form-group">
+                <label class="col-md-4 control-label"></label>
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <button type="submit" class="btn btn-default"><a href="/forth">Next</a></button>
+                </div>
+            </div>
+    </form>
+    </div>
+    </body>
+</html>

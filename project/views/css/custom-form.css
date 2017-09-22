@@ -1,0 +1,136 @@
+@media (min-width: 992px) and (max-width: 1280px) {
+    .container-fluid{
+        padding-left:0px;
+    }
+    a {
+        color:#878787;
+    }
+ 
+    #left-container{
+            padding: 0px 0px 0px 8%;
+    }
+    label{
+        font-weight:100;
+        font-size:20px;
+        font-family: Futura, Arial, sans-serif;
+            margin-bottom: 8px;
+    }
+    #cb1{
+        font-weight: 100;
+    }
+    .form-control{
+        height:50px;
+    }
+    #image{
+        width:13%;
+    }
+    #jumbo{
+        padding:5px;
+        margin-bottom:1%;
+    }
+    #bottom-row{
+        margin-bottom:1%;
+    }
+  #first-row-buttons{
+        margin-bottom:3%;
+    } 
+    #first-row-buttons{
+        margin-bottom:3%;
+    }
+#question{
+    margin-bottom: 3%;
+    font-size:24px;
+    text-align: left;
+    padding-left:15px;
+}
+    
+#choice{
+    color:#878787;
+    text-align: center;
+    font-size:20px;
+    
+}
+    .row{
+ margin:0px 5px;
+
+}
+
+#middle{
+    margin-bottom:5%;
+
+}
+
+.col-sm-3{
+    text-align: center;
+}    
+.bottom-align{
+    position: absolute;
+    bottom:0;
+    right:0;
+    margin:10px;
+}
+#main-title {
+    font-size: 35px;
+    width:87%;
+}    
+    
+.first {
+    text-align: center;
+    padding:12px;
+    border-style: solid;
+    border-color: #878787;
+    border-width:20px;
+}
+ .titles{
+    color:#878787;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.btn {
+    border-radius: 50px;
+    background-color: white;
+    border-color: #da1c23;
+    color:#da1c23;
+    font-size: 23px;
+    padding:5px 25px;
+    margin:5px; }
+    
+.btn:hover{
+    background-color:#da1c23;
+    color:white;
+}   
+
+#next-button{
+    font-weight: bold;
+    padding: 10px 60px; 
+     margin-bottom: 0px;  
+}
+
+     #previous-button:hover{
+    background-color:#878787;
+    color:white;
+    }    
+
+    #previous-button{
+     border-color:#878787;
+    border-color: #878787;
+    font-weight: bold;
+    padding: 10px 60px; 
+     margin-bottom: 0px;
+     color:#878787;
+}
+.jumbotron{
+    padding:0px;
+    background-color: white;
+    } 
+
+body {
+    font-family: Futura, Arial, sans-serif;
+    color:#878787;   
+}
+ 
+
+
+}
