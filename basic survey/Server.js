@@ -6,7 +6,7 @@ var mongoose = require('mongoose');
 
 //DB
 //--------------------DATABASE CONNECTION------------------
-mongoose.connect('mongodb://veneta:112233@ds135790.mlab.com:35790/survey');
+mongoose.connect('mongodb://url');
 
 //__dirname" keyword points to current working directory.
 var path = __dirname + '/views/';
